@@ -2,7 +2,7 @@
 
 # ==========================================================
 # SCRIPT : DOWNLOAD AND INSTALL ENIGMA2 PLUGIN
-# Plugin   : TS-SatEditor
+# Plugin   : EPGImport_Iet5
 # Notes    : This installer automatically reads the latest
 #            version from ver.txt and installs the matching
 #            package without editing this script each release.
@@ -10,19 +10,18 @@
 # ==========================================================
 #
 # Example run:
-# wget -qO- "https://raw.githubusercontent.com/Saiedf/TS-SatEditor/main/installer_ts-sateditor_auto.sh" | /bin/sh
+# wget -qO- "https://raw.githubusercontent.com/Saiedf/EPGImport_Iet5/main/installer_epgimport_iet5_auto.sh" | /bin/sh
 #
 # Alternative:
-# wget -O /tmp/installer_ts-sateditor_auto.sh "https://raw.githubusercontent.com/Saiedf/TS-SatEditor/main/installer_ts-sateditor_auto.sh" && chmod 755 /tmp/installer_ts-sateditor_auto.sh && /bin/sh /tmp/installer_ts-sateditor_auto.sh
+# wget -O /tmp/installer_epgimport_iet5_auto.sh "https://raw.githubusercontent.com/Saiedf/EPGImport_Iet5/main/installer_epgimport_iet5_auto.sh" && chmod 755 /tmp/installer_epgimport_iet5_auto.sh && /bin/sh /tmp/installer_epgimport_iet5_auto.sh
 # ==========================================================
-
-PACKAGE_NAME='enigma2-plugin-extensions-ts-sateditor'
-LEGACY_PACKAGE_NAME='enigma2-plugin-extensions-TS-SatEditor'
-PLUGIN_TITLE='TS-SatEditor'
-PLUGIN_FOLDER='TS-SatEditor'
+PACKAGE_NAME='enigma2-plugin-extensions-epgimport_iet5'
+LEGACY_PACKAGE_NAME='enigma2-plugin-extensions-epgimport'
+PLUGIN_TITLE='EPGImport'
+PLUGIN_FOLDER='EPGImport'
 
 REPO_USER='Saiedf'
-REPO_NAME='TS-SatEditor'
+REPO_NAME='EPGImport'
 REPO_BRANCH='main'
 
 # Adjust once only if your GitHub layout is different
